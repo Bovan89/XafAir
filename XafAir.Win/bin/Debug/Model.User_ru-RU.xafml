@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views>
+    <DetailView Id="ValidationResults_Passed_DetailView">
+      <Items>
+        <StaticText Id="ValidationResultsText" Text="При контроле данных проблем не выявлено." />
+      </Items>
+    </DetailView>
+  </Views>
+</Application>

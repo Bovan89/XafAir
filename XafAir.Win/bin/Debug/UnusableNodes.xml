@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="Pilot_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="PlaneCnt" Width="538" Index="2" SortIndex="0" SortOrder="Ascending" />
+      </Columns>
+    </ListView>
+    <ListView Id="Airport_Pilots_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="PlaneCnt" Width="634" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>
