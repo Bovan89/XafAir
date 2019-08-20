@@ -38857,3 +38857,356 @@ Application config
    в XafAir.Win.XafAirWindowsFormsApplication..ctor() в E:\Proj\XafAir\XafAir.Win\WinApplication.cs:строка 28
    в XafAir.Win.Program.Main() в E:\Proj\XafAir\XafAir.Win\Program.cs:строка 30
 
+20.08.19 12:02:32.613	================================================================================
+20.08.19 12:02:32.621	Trace Log for XafAir.Win.exe is started
+20.08.19 12:02:32.634	================================================================================
+20.08.19 12:02:32.641	System Environment
+	OS Version: Microsoft Windows NT 6.1.7601 Service Pack 1
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 19.1.5.0
+	eXpressApp File Version: 19.1.5.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	AirDLLPath=AirDLL.dll
+
+20.08.19 12:02:32.741	Initialize application
+=======================
+20.08.19 12:02:32.744		Command line arguments: 
+		E:\Proj\XafAir\XafAir.Win\bin\Debug\XafAir.Win.exe
+20.08.19 12:02:32.836	The ValueManagerType is initialized by the default value: SimpleValueManager.
+20.08.19 12:02:32.842	Stack trace:
+   в DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   в DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   в System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   в DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   в DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   в DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   в DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   в System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   в DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   в DevExpress.ExpressApp.ApplicationModulesManager.AddModuleIntoList(ModuleBase module, IList`1 moduleList, List`1 requiredModules)
+   в DevExpress.ExpressApp.ApplicationModulesManager.EnsureModuleInList(Type moduleType, IList`1 moduleList, List`1 requiredModules)
+   в DevExpress.ExpressApp.ApplicationModulesManager.AddModuleIntoList(ModuleBase module, IList`1 moduleList, List`1 requiredModules)
+   в DevExpress.ExpressApp.ModuleList.RefreshRequiredModules()
+   в DevExpress.ExpressApp.ModuleList.OnInitializeComplete()
+   в DevExpress.ExpressApp.Utils.BindingListBase`1.EndInit()
+   в DevExpress.ExpressApp.XafApplication.EndInit()
+   в XafAir.Win.XafAirWindowsFormsApplication.InitializeComponent() в E:\Proj\XafAir\XafAir.Win\WinApplication.Designer.cs:строка 52
+   в XafAir.Win.XafAirWindowsFormsApplication..ctor() в E:\Proj\XafAir\XafAir.Win\WinApplication.cs:строка 28
+   в XafAir.Win.Program.Main() в E:\Proj\XafAir\XafAir.Win\Program.cs:строка 30
+
+20.08.19 12:02:33.673	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+20.08.19 12:02:33.675	--------------------------------------------------------------------------------
+							
+
+20.08.19 12:02:33.685	Resolve the 'DevExpress.BonusSkins.v19.1' assembly
+20.08.19 12:02:33.687	Resolve the 'DevExpress.BonusSkins.v19.1, Version=19.1.5.0' assembly
+20.08.19 12:02:33.697	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.Data.v19.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v19.1.dll
+	DevExpress.ExpressApp.Objects.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v19.1.dll
+	DevExpress.ExpressApp.ReportsV2.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v19.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v19.1.dll
+	DevExpress.ExpressApp.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.ExpressApp.v19.1.dll
+	DevExpress.ExpressApp.v19.1.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v19.1.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.ExpressApp.v19.1.resources.dll
+	DevExpress.ExpressApp.Validation.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v19.1.dll
+	DevExpress.ExpressApp.Validation.Win.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v19.1.dll
+	DevExpress.ExpressApp.Win.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v19.1.dll
+	DevExpress.ExpressApp.Xpo.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v19.1.dll
+	DevExpress.Persistent.Base.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.Persistent.Base.v19.1.dll
+	DevExpress.Persistent.BaseImpl.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v19.1.dll
+	DevExpress.Printing.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v19.1.Core\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.Printing.v19.1.Core.dll
+	DevExpress.Utils.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.Utils.v19.1.dll
+	DevExpress.Xpo.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.Xpo.v19.1.dll
+	DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.XtraBars.v19.1.dll
+	DevExpress.XtraEditors.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.XtraEditors.v19.1.dll
+	DevExpress.XtraReports.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.XtraReports.v19.1.dll
+	DevExpress.XtraReports.v19.1.Extensions, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v19.1.Extensions\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.XtraReports.v19.1.Extensions.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=ru, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ru_b77a5c561934e089\mscorlib.resources.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	XafAir.Module, Version=1.0.7171.20223, Culture=neutral, PublicKeyToken=null, Location=E:\Proj\XafAir\XafAir.Win\bin\Debug\XafAir.Module.dll
+	XafAir.Module.Win, Version=1.0.7171.21213, Culture=neutral, PublicKeyToken=null, Location=E:\Proj\XafAir\XafAir.Win\bin\Debug\XafAir.Module.Win.dll
+	XafAir.Win, Version=1.0.7171.21214, Culture=neutral, PublicKeyToken=null, Location=E:\Proj\XafAir\XafAir.Win\bin\Debug\XafAir.Win.exe
+20.08.19 12:02:33.818	SetupModules
+20.08.19 12:02:33.977	Customize TypesInfo
+20.08.19 12:02:35.844		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+20.08.19 12:02:35.846		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+20.08.19 12:02:35.974	--------------------------------------------------------------------------------
+							Start logon process
+
+20.08.19 12:02:35.984	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+20.08.19 12:02:35.987		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=XafAir;XpoDataStorePool=True;
+20.08.19 12:02:35.988		ConnectionString: 
+20.08.19 12:02:36.946	--------------------------------------------------------------------------------
+							UpdateDB
+
+20.08.19 12:02:36.966		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=XafAir;XpoDataStorePool=True;
+20.08.19 12:02:37.197	--------------------------------------------------------------------------------
+							Logon successful
+
+20.08.19 12:02:37.204	--------------------------------------------------------------------------------
+							Logon completed
+
+20.08.19 12:02:37.241		startUpActions: 0
+20.08.19 12:02:37.316	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+20.08.19 12:02:37.427	Generate default Model for Action containers
+20.08.19 12:02:40.361	Resolve the 'DevExpress.ExpressApp.Win.v19.1.XmlSerializers, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+20.08.19 12:02:40.362	Resolve the 'DevExpress.ExpressApp.Win.v19.1.XmlSerializers, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+20.08.19 12:02:40.470	--------------------------------------------------------------------------------
+							Execute action
+
+20.08.19 12:02:40.471		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+20.08.19 12:02:40.472		SelectedItem: Аэропорты
+20.08.19 12:02:41.833	Action 'ShowNavigationItem' done
+20.08.19 12:02:42.496	Application startup done
+=========================
+20.08.19 12:02:42.496	Application running
+====================
+20.08.19 12:02:45.090	--------------------------------------------------------------------------------
+							Execute action
+
+20.08.19 12:02:45.090		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+20.08.19 12:02:45.091		SelectedItem: Самолеты
+20.08.19 12:02:45.177	Cannot call a non-static method 'Plane.CodeHasA' because there is no context object. Make the 'Plane.CodeHasA' method static to allow calling it in this scenario.
+20.08.19 12:02:45.180	Cannot call a non-static method 'Plane.CodeHasA' because there is no context object. Make the 'Plane.CodeHasA' method static to allow calling it in this scenario.
+20.08.19 12:02:45.180	Cannot call a non-static method 'Plane.CodeHasA' because there is no context object. Make the 'Plane.CodeHasA' method static to allow calling it in this scenario.
+20.08.19 12:02:45.180	Cannot call a non-static method 'Plane.CodeHasA' because there is no context object. Make the 'Plane.CodeHasA' method static to allow calling it in this scenario.
+20.08.19 12:02:45.367	Action 'ShowNavigationItem' done
+20.08.19 12:02:51.127	--------------------------------------------------------------------------------
+							Execute action
+
+20.08.19 12:02:51.129		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Close
+								Category: Close
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.CloseWindowController
+								Context.Name: Самолеты
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XafAir.Module.BusinessObjects.Plane(abdab8b4-5091-4640-8c10-685ad4a15984)
+
+20.08.19 12:02:51.132	Window closing: Самолеты
+20.08.19 12:02:51.181	Window closed: Самолеты
+20.08.19 12:02:51.337	Action 'Close' done
+20.08.19 12:02:52.148	--------------------------------------------------------------------------------
+							Execute action
+
+20.08.19 12:02:52.149		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Close
+								Category: Close
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.CloseWindowController
+								Context.Name: Аэропорты
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XafAir.Module.BusinessObjects.Airport(d3f1e606-7db6-4efe-8ac2-f8f301b5807f)
+
+20.08.19 12:02:52.150	Window closing: Аэропорты
+20.08.19 12:02:52.151	Window closed: Аэропорты
+20.08.19 12:02:52.224	Action 'Close' done
+20.08.19 12:02:53.102	Window closing: XafAir
+20.08.19 12:02:53.138	Window closed: XafAir
+20.08.19 12:02:53.266	Save model changes
+===================
+20.08.19 12:02:53.281	Save model changes
+===================
+20.08.19 12:02:53.284	--------------------------------------------------------------------------------
+							Logoff completed
+
+20.08.19 12:02:53.285	Application stopping
+=====================
+20.08.19 12:03:08.458	================================================================================
+20.08.19 12:03:08.459	Trace Log for XafAir.Win.exe is started
+20.08.19 12:03:08.459	================================================================================
+20.08.19 12:03:08.462	System Environment
+	OS Version: Microsoft Windows NT 6.1.7601 Service Pack 1
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 19.1.5.0
+	eXpressApp File Version: 19.1.5.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	AirDLLPath=AirDLL.dll
+
+20.08.19 12:03:08.544	Initialize application
+=======================
+20.08.19 12:03:08.546		Command line arguments: 
+		E:\Proj\XafAir\XafAir.Win\bin\Debug\XafAir.Win.exe
+20.08.19 12:03:08.672	The ValueManagerType is initialized by the default value: SimpleValueManager.
+20.08.19 12:03:08.675	Stack trace:
+   в DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   в DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   в System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   в DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   в DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   в DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   в DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   в System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   в DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   в DevExpress.ExpressApp.ApplicationModulesManager.AddModuleIntoList(ModuleBase module, IList`1 moduleList, List`1 requiredModules)
+   в DevExpress.ExpressApp.ApplicationModulesManager.EnsureModuleInList(Type moduleType, IList`1 moduleList, List`1 requiredModules)
+   в DevExpress.ExpressApp.ApplicationModulesManager.AddModuleIntoList(ModuleBase module, IList`1 moduleList, List`1 requiredModules)
+   в DevExpress.ExpressApp.ModuleList.RefreshRequiredModules()
+   в DevExpress.ExpressApp.ModuleList.OnInitializeComplete()
+   в DevExpress.ExpressApp.Utils.BindingListBase`1.EndInit()
+   в DevExpress.ExpressApp.XafApplication.EndInit()
+   в XafAir.Win.XafAirWindowsFormsApplication.InitializeComponent() в E:\Proj\XafAir\XafAir.Win\WinApplication.Designer.cs:строка 52
+   в XafAir.Win.XafAirWindowsFormsApplication..ctor() в E:\Proj\XafAir\XafAir.Win\WinApplication.cs:строка 28
+   в XafAir.Win.Program.Main() в E:\Proj\XafAir\XafAir.Win\Program.cs:строка 30
+
+20.08.19 12:03:09.438	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+20.08.19 12:03:09.440	--------------------------------------------------------------------------------
+							
+
+20.08.19 12:03:09.448	Resolve the 'DevExpress.BonusSkins.v19.1' assembly
+20.08.19 12:03:09.450	Resolve the 'DevExpress.BonusSkins.v19.1, Version=19.1.5.0' assembly
+20.08.19 12:03:09.461	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.BonusSkins.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.BonusSkins.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.BonusSkins.v19.1.dll
+	DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.Data.v19.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v19.1.dll
+	DevExpress.ExpressApp.Objects.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v19.1.dll
+	DevExpress.ExpressApp.ReportsV2.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v19.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v19.1.dll
+	DevExpress.ExpressApp.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.ExpressApp.v19.1.dll
+	DevExpress.ExpressApp.v19.1.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v19.1.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.ExpressApp.v19.1.resources.dll
+	DevExpress.ExpressApp.Validation.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v19.1.dll
+	DevExpress.ExpressApp.Validation.Win.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v19.1.dll
+	DevExpress.ExpressApp.Win.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v19.1.dll
+	DevExpress.ExpressApp.Xpo.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v19.1.dll
+	DevExpress.Persistent.Base.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.Persistent.Base.v19.1.dll
+	DevExpress.Persistent.BaseImpl.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v19.1.dll
+	DevExpress.Printing.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v19.1.Core\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.Printing.v19.1.Core.dll
+	DevExpress.Utils.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.Utils.v19.1.dll
+	DevExpress.Xpo.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.Xpo.v19.1.dll
+	DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.XtraBars.v19.1.dll
+	DevExpress.XtraEditors.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.XtraEditors.v19.1.dll
+	DevExpress.XtraReports.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v19.1\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.XtraReports.v19.1.dll
+	DevExpress.XtraReports.v19.1.Extensions, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v19.1.Extensions\v4.0_19.1.5.0__b88d1754d700e49a\DevExpress.XtraReports.v19.1.Extensions.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=ru, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ru_b77a5c561934e089\mscorlib.resources.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	XafAir.Module, Version=1.0.7171.21693, Culture=neutral, PublicKeyToken=null, Location=E:\Proj\XafAir\XafAir.Win\bin\Debug\XafAir.Module.dll
+	XafAir.Module.Win, Version=1.0.7171.21693, Culture=neutral, PublicKeyToken=null, Location=E:\Proj\XafAir\XafAir.Win\bin\Debug\XafAir.Module.Win.dll
+	XafAir.Win, Version=1.0.7171.21693, Culture=neutral, PublicKeyToken=null, Location=E:\Proj\XafAir\XafAir.Win\bin\Debug\XafAir.Win.exe
+20.08.19 12:03:09.580	SetupModules
+20.08.19 12:03:09.756	Customize TypesInfo
+20.08.19 12:03:11.713		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+20.08.19 12:03:11.715		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+20.08.19 12:03:11.847	--------------------------------------------------------------------------------
+							Start logon process
+
+20.08.19 12:03:11.857	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+20.08.19 12:03:11.860		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=XafAir;XpoDataStorePool=True;
+20.08.19 12:03:11.860		ConnectionString: 
+20.08.19 12:03:12.116	--------------------------------------------------------------------------------
+							UpdateDB
+
+20.08.19 12:03:12.136		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=XafAir;XpoDataStorePool=True;
+20.08.19 12:03:12.370	--------------------------------------------------------------------------------
+							Logon successful
+
+20.08.19 12:03:12.378	--------------------------------------------------------------------------------
+							Logon completed
+
+20.08.19 12:03:12.416		startUpActions: 0
+20.08.19 12:03:12.470	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+20.08.19 12:03:12.587	Generate default Model for Action containers
+20.08.19 12:03:16.581	Resolve the 'DevExpress.ExpressApp.Win.v19.1.XmlSerializers, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+20.08.19 12:03:16.583	Resolve the 'DevExpress.ExpressApp.Win.v19.1.XmlSerializers, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+20.08.19 12:03:16.694	--------------------------------------------------------------------------------
+							Execute action
+
+20.08.19 12:03:16.695		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+20.08.19 12:03:16.696		SelectedItem: Аэропорты
+20.08.19 12:03:18.044	Action 'ShowNavigationItem' done
+20.08.19 12:03:18.685	Application startup done
+=========================
+20.08.19 12:03:18.686	Application running
+====================
+20.08.19 12:03:22.049	--------------------------------------------------------------------------------
+							Execute action
+
+20.08.19 12:03:22.049		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+20.08.19 12:03:22.050		SelectedItem: Самолеты
+20.08.19 12:03:22.136	Cannot call a non-static method 'Plane.CodeHasA' because there is no context object. Make the 'Plane.CodeHasA' method static to allow calling it in this scenario.
+20.08.19 12:03:22.139	Cannot call a non-static method 'Plane.CodeHasA' because there is no context object. Make the 'Plane.CodeHasA' method static to allow calling it in this scenario.
+20.08.19 12:03:22.140	Cannot call a non-static method 'Plane.CodeHasA' because there is no context object. Make the 'Plane.CodeHasA' method static to allow calling it in this scenario.
+20.08.19 12:03:22.140	Cannot call a non-static method 'Plane.CodeHasA' because there is no context object. Make the 'Plane.CodeHasA' method static to allow calling it in this scenario.
+20.08.19 12:03:22.322	Action 'ShowNavigationItem' done
+20.08.19 12:03:24.416	Window closing: Аэропорты
+20.08.19 12:03:24.432	Window closing: Самолеты
+20.08.19 12:03:24.434	Window closing: Самолеты - XafAir
+20.08.19 12:03:24.536	Window closed: Аэропорты
+20.08.19 12:03:24.538	Window closed: Самолеты
+20.08.19 12:03:24.539	Window closed: Самолеты - XafAir
+20.08.19 12:03:24.903	Save model changes
+===================
+20.08.19 12:03:24.918	Save model changes
+===================
+20.08.19 12:03:24.921	--------------------------------------------------------------------------------
+							Logoff completed
+
+20.08.19 12:03:24.923	Application stopping
+=====================

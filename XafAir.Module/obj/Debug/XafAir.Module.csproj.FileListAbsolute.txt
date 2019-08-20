@@ -132,3 +132,4 @@ E:\Proj\XafAir\XafAir.Module\obj\Debug\XafAir.Module.XafAirModule.resources
 E:\Proj\XafAir\XafAir.Module\bin\Debug\DevExpress.RichEdit.v19.1.Export.dll
 E:\Proj\XafAir\XafAir.Module\obj\Debug\XafAir.Module.Reports.AirPilotsReport.resources
 E:\Proj\XafAir\XafAir.Module\obj\Debug\XafAir.Module.Controllers.ReportController.resources
+E:\Proj\XafAir\XafAir.Module\obj\Debug\XafAir.Module.csprojAssemblyReference.cache

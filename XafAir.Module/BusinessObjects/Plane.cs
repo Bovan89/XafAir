@@ -34,7 +34,7 @@ namespace XafAir.Module.BusinessObjects
         [Appearance("CodeHasA", TargetItems = "*", Context = "ListView", FontColor = "Green")]
         public bool CodeHasA()
         {
-            if (Code != null && Code.ToUpper().Contains('А'))
+            if (Code != null && Code.ToUpper().Contains('A'))
             {
                 return true;
             }
